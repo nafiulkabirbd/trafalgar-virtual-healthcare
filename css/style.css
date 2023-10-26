@@ -1,0 +1,16 @@
+/* global style start */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* global style end */
+
+/* body style start */
+
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+/* body style end */
