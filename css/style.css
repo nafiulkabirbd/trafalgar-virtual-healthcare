@@ -14,3 +14,46 @@ body {
 }
 
 /* body style end */
+
+/* header related style start */
+
+.header {
+    background-color: #FFF;
+}
+
+/* header related style end */
+
+/* nav related style start */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 245px;
+    padding-top: 62px;
+}
+
+.nav-title {
+    color: #233348;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1F1534;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* nav related style end */
