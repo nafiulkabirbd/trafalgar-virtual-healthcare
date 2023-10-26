@@ -19,6 +19,9 @@ body {
 
 .header {
     background-color: #FFF;
+    background-image: url('../images/element.png');
+    background-repeat: no-repeat;
+    background-position: top 160px left -2px;
 }
 
 /* header related style end */
@@ -29,7 +32,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 245px;
+    margin: 0px 300px;
     padding-top: 62px;
 }
 
@@ -57,3 +60,50 @@ nav a {
 }
 
 /* nav related style end */
+
+/* banner related style start */
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 300px;
+    padding-top: 84px;
+}
+
+.banner-content {
+    max-width: 500px;
+}
+
+.banner-img {
+    width: 650px;
+}
+
+.banner-title {
+    color: #000;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-bottom: 25px;
+}
+
+.banner-details {
+    color: #7D7987;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 32px;
+    margin-bottom: 48px;
+}
+
+.btn-consult {
+    background-color: #458FF6;
+    border-radius: 55px;
+    padding: 21px 40px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 60px;
+    text-decoration: none;
+}
+
+/* banner related style end */
