@@ -32,6 +32,46 @@ body {
     padding-top: 33px;
 }
 
+
+.content-common-width {
+    max-width: 500px;
+}
+
+.common-img-style {
+    width: 650px;
+}
+
+.common-line {
+    width: 56px;
+    height: 2px;
+    border-radius: 5px;
+    background-color: #000;
+}
+
+.common-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 300px;
+    padding-top: 62px;
+}
+
+.common-title {
+    color: #000;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+    padding-bottom: 18px;
+}
+
+.common-description {
+    color: #7D7987;
+    font-weight: 300;
+    line-height: 30px;
+    padding-top: 33px;
+    padding-bottom: 37px;
+}
+
 .btn-common-div {
     text-align: center;
     margin-top: 69px;
@@ -105,14 +145,6 @@ nav a {
     align-items: center;
     margin: 0px 300px;
     padding-top: 84px;
-}
-
-.banner-content {
-    max-width: 500px;
-}
-
-.banner-img {
-    width: 650px;
 }
 
 .banner-title {
@@ -201,46 +233,15 @@ nav a {
 /* leading healthcare related style start */
 
 .leading-healthcare-section {
-    padding-top: 200px;
-}
-
-.leading-healthcare-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0px 300px;
-    padding-top: 62px;
-}
-
-.leading-healthcare-item {
-    max-width: 500px;
-}
-
-.sec02-img {
-    width: 650px;
-}
-
-.leading-healthcare-title {
-    color: #000;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 56px;
-    padding-bottom: 18px;
-}
-
-.leading-healthcare-line {
-    width: 56px;
-    height: 2px;
-    border-radius: 5px;
-    background-color: #000;
-}
-
-.leading-healthcaredescription {
-    color: #7D7987;
-    font-weight: 300;
-    line-height: 30px;
-    padding-top: 33px;
-    padding-bottom: 37px;
+    padding-top: 220px;
 }
 
 /* leading healthcare related style end */
+
+/* apps related style start */
+
+.apps-section {
+    padding-top: 220px;
+}
+
+/* apps related style end */
