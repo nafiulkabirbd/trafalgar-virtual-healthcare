@@ -7,13 +7,57 @@
 
 /* global style end */
 
-/* body style start */
+/* common share style start */
 
 body {
     font-family: 'Mulish', sans-serif;
 }
 
-/* body style end */
+.section-title {
+    color: #000;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: center;
+    padding-bottom: 18px;
+}
+
+.section-description {
+    color: #7D7987;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 33px;
+}
+
+.line {
+    width: 56px;
+    height: 2px;
+    border-radius: 5px;
+    background-color: #000;
+    margin: 0px auto;
+}
+
+.btn-common-div {
+    text-align: center;
+    margin-top: 69px;
+}
+
+.btn-common {
+    background-color: #FFF;
+    border: 1.4px solid #458FF6;
+    border-radius: 55px;
+    padding: 21px 40px;
+    color: #458FF6;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 60px;
+    text-decoration: none;
+}
+
+/* common share style start */
 
 /* header related style start */
 
@@ -107,3 +151,48 @@ nav a {
 }
 
 /* banner related style end */
+
+/* services related style start */
+
+.services-section {
+    padding-top: 140px;
+    background-image: url('../images/Vector.png'), url('../images/element.png');
+    ;
+    background-repeat: no-repeat, no-repeat;
+    background-position: top 345px left 0px, top 697px left 1494px;
+}
+
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding-top: 80px;
+    justify-items: center;
+    margin: 0px 380px;
+}
+
+.services-item {
+    width: 350px;
+    height: 354px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+    padding-right: 45px;
+}
+
+.service-icon {
+    padding: 54px 0px 0px 37px;
+}
+
+.service-title {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 22.41px 0px 0px 37px;
+}
+
+.service-description {
+    padding: 16px 0px 0px 37px;
+}
+
+/* services related style end */
