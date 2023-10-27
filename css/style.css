@@ -32,14 +32,6 @@ body {
     padding-top: 33px;
 }
 
-.line {
-    width: 56px;
-    height: 2px;
-    border-radius: 5px;
-    background-color: #000;
-    margin: 0px auto;
-}
-
 .btn-common-div {
     text-align: center;
     margin-top: 69px;
@@ -49,7 +41,7 @@ body {
     background-color: #FFF;
     border: 1.4px solid #458FF6;
     border-radius: 55px;
-    padding: 21px 40px;
+    padding: 18px 35px;
     color: #458FF6;
     font-size: 18px;
     font-weight: 700;
@@ -171,6 +163,14 @@ nav a {
     margin: 0px 380px;
 }
 
+.service-line {
+    width: 56px;
+    height: 2px;
+    border-radius: 5px;
+    background-color: #000;
+    margin: 0px auto;
+}
+
 .services-item {
     width: 350px;
     height: 354px;
@@ -179,6 +179,7 @@ nav a {
     box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
     padding-right: 45px;
 }
+
 
 .service-icon {
     padding: 54px 0px 0px 37px;
@@ -196,3 +197,50 @@ nav a {
 }
 
 /* services related style end */
+
+/* leading healthcare related style start */
+
+.leading-healthcare-section {
+    padding-top: 200px;
+}
+
+.leading-healthcare-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 300px;
+    padding-top: 62px;
+}
+
+.leading-healthcare-item {
+    max-width: 500px;
+}
+
+.sec02-img {
+    width: 650px;
+}
+
+.leading-healthcare-title {
+    color: #000;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+    padding-bottom: 18px;
+}
+
+.leading-healthcare-line {
+    width: 56px;
+    height: 2px;
+    border-radius: 5px;
+    background-color: #000;
+}
+
+.leading-healthcaredescription {
+    color: #7D7987;
+    font-weight: 300;
+    line-height: 30px;
+    padding-top: 33px;
+    padding-bottom: 37px;
+}
+
+/* leading healthcare related style end */
